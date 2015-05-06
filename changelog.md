@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file (keepachangelog.com).
 
+## 0.1.3 - 2015-05-06
+### Changed
+- cleanup method docs (for real this time).
+
 ## 0.1.2 - 2015-05-06
 ### Changed
 - cleanup method docs.

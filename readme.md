@@ -88,6 +88,8 @@ ACTIVE_ACTIVITY_API_URL="https://api.amp.active.com/v2/search" # optional as thi
 - Call accessor function w/o arguments and it will act as a getter.
 - Call accessor function w/ an argument and it will act as a setter.
 
+###### functions
+
 - near
 - latLon
 - bbox
