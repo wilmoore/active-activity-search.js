@@ -11,7 +11,10 @@ When opening an issue for a bug, please include steps for reproducing the proble
     git clone https://github.com/wilmoore/active-activity-search.js.git
     cd active-activity-search.js
     npm install
+    echo ACTIVE_ACTIVITY_API_KEY="***" > .env
     npm run dev
+
+**NOTE**: make sure you replace `***` with an active API key. It is possible to skip this and run the test suite if you also add `.skip` to the integration tests or use `.only` with the tests you are focused on.
 
 ## Tests
 
