@@ -1,0 +1,55 @@
+'use strict'
+
+/*!
+ * exports.
+ * test parameters.
+ */
+
+module.exports = [
+  { name: 'near', key: 'near', input: 'San Diego,CA,US' },
+  { name: 'latLon', key: 'lat_lon', input: '45.49428,-122.86705' },
+  { name: 'bbox', key: 'bbox', input: '40.73,-74.1;40.717,-73.-99' },
+  { name: 'geoPoints', key: 'geo_points', input: '40,-70;30,-80;20,-90' },
+  { name: 'radius', key: 'radius', input: '50' },
+  { name: 'showDistance', key: 'show_distance', input: 'TRUE' },
+  { name: 'city', key: 'city', input: 'San Diego' },
+  { name: 'state', key: 'state', input: 'CA' },
+  { name: 'zip', key: 'zip', input: '92101' },
+  { name: 'country', key: 'country', input: 'US' },
+  { name: 'query', key: 'query', input: 'half marathon' },
+  { name: 'currentPage', key: 'current_page', input: '3' },
+  { name: 'perPage', key: 'per_page', input: '50' },
+  { name: 'sort', key: 'sort', input: 'date_asc' },
+  { name: 'facets', key: 'facets', input: 'topicName' },
+  { name: 'facetValues', key: 'facet_values', input: 'topicName:Running,Cycling' },
+  { name: 'category', key: 'category', input: 'event' },
+  { name: 'categoryName', key: 'category_name', input: 'event' },
+  { name: 'topic', key: 'topic', input: 'running' },
+  { name: 'topicName', key: 'topic_name', input: 'endurance' },
+  { name: 'metaInterest', key: 'meta_interest', input: 'MOB' },
+  { name: 'metaInterestName', key: 'meta_interest_name', input: 'MOB' },
+  { name: 'attributes', key: 'attributes', input: 'gender:male' },
+  { name: 'tags', key: 'tags', input: 'activeadvantage:true' },
+  { name: 'startDate', key: 'start_date', input: '2013-01-15..2013-01-20' },
+  { name: 'endDate', key: 'end_date', input: '..2013-01-15' },
+  { name: 'cb', key: 'cb', input: 'displayResults' },
+  { name: 'excludeChildren', key: 'exclude_children', input: 'TRUE' },
+  { name: 'includeEvergreenChildren', key: 'include_evergreen_children', input: 'TRUE' },
+  { name: 'registerableOnly', key: 'registerable_only', input: 'TRUE' },
+  { name: 'exists', key: 'exists', input: 'asset.authorName' },
+  { name: 'notExists', key: 'not_exists', input: 'asset.authorName' },
+  { name: 'assetName', key: 'asset_name', input: 'Running Event - RunForTheHungry' },
+  { name: 'orgId', key: 'org_id', input: 'd8a0de32-091b-45a9-8e18-5a9e90c2aeb1' },
+  { name: 'placeId', key: 'place_id', input: '022fb10c-128b-43f4-87ed-12f7df6f1be3' },
+  { name: 'sourceSystemId', key: 'source_system_id', input: 'EA4E860A-9DCD-4DAA-A7CA-4A77AD194F65' },
+  { name: 'sourceSystemName', key: 'source_system_name', input: 'RegCenter' },
+  { name: 'showSuggest', key: 'show_suggest', input: 'TRUE' },
+  { name: 'searchAgain', key: 'search_again', input: 'TRUE' },
+  { name: 'fields', key: 'fields', input: 'assetName,contactPhone,urlAdr' },
+  { name: 'assetGuid', key: 'asset.assetGuid', input: 'db5146ee-92bd-4e11-80d0-e34fce48d48e' },
+  { name: 'substitutionUrl', key: 'asset.assetLegacyData.substitutionUrl', input: '1696272' },
+  { name: 'authorName', key: 'asset.authorName', input: 'John Doe' },
+  { name: 'reqMinAge', key: 'asset.reqMinAge', input: '10..20' },
+  { name: 'cityName', key: 'asset.place.cityName', input: 'San Diego OR Los Angeles OR Oceanside' },
+  { name: 'assetTopicName', key: 'asset.assetTopics.topic.topicName', input: 'NOT Running' }
+]
