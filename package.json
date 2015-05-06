@@ -22,7 +22,17 @@
     "tape-runner": "^0.3.0"
   },
   "homepage": "https://github.com/wilmoore/active-activity-search.js",
-  "keywords": [],
+  "keywords": [
+    "active",
+    "active.com",
+    "activity",
+    "api",
+    "apiclient",
+    "client",
+    "http",
+    "httpclient",
+    "search"
+  ],
   "license": "MIT",
   "main": "index.js",
   "repository": {
