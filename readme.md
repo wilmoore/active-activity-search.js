@@ -83,9 +83,10 @@ ACTIVE_ACTIVITY_API_URL="https://api.amp.active.com/v2/search" # optional as thi
 ## Accessors
 
 > For each [parameter](http://developer.active.com/docs/read/v2_Activity_API_Search) a corresponding camelCased accessor (getter/setter) function is exposed.
-> All accessors are chainable.
-> Call accessor function w/o arguments and it will act as a getter.
-> Call accessor function w/ an argument and it will act as a setter.
+
+- All accessors are chainable.
+- Call accessor function w/o arguments and it will act as a getter.
+- Call accessor function w/ an argument and it will act as a setter.
 
 - near
 - latLon
