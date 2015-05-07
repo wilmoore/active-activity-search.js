@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file (keepachangelog.com).
 
+## 0.3.0 - 2015-05-07
+### Added
+- add 'user-agent' string to request.
+
 ## 0.2.1 - 2015-05-07
 ### Changed
 - Allow `got` to parse data as JSON automatically.
