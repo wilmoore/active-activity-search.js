@@ -44,6 +44,7 @@ client
 * Supports 12-factor configuration.
 * Exposes a fluent interface.
 * Emits debug logs via `DEBUG=active-activity-search*`.
+* Exposes a `User-Agent` request header including the name and version of the client.
 
 ## 12-factor configuration example
 

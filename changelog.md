@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file (keepachangelog.com).
 
+## 0.3.1 - 2015-05-07
+### Added
+- document 'user-agent' feature.
+
 ## 0.3.0 - 2015-05-07
 ### Added
 - add 'user-agent' string to request.
