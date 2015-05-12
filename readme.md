@@ -81,6 +81,14 @@ ACTIVE_ACTIVITY_API_URL="https://api.amp.active.com/v2/search" # optional as thi
 
  * `options: (Object)` _options object_.
 
+### .set
+
+Invoke corresponding accessor for each snake_cased parameter in given source object.
+
+    set({ show_suggest: true, query: 'running' })
+
+NOTE: see http://developer.active.com/docs/read/v2_Activity_API_Search
+
 ## Accessors
 
 > For each [parameter](http://developer.active.com/docs/read/v2_Activity_API_Search) a corresponding camelCased accessor (getter/setter) function is exposed.

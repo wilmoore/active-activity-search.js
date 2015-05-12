@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file (keepachangelog.com).
 
+## 0.4.0 - 2015-05-12
+### Added
+- added .set function.
+
 ## 0.3.1 - 2015-05-07
 ### Added
 - document 'user-agent' feature.
