@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file (keepachangelog.com).
 
+## 0.5.0 - 2015-05-13
+### Changed
+- swapped out `@wilmoore/accessor` for local `./lib/accessor`.
+
 ## 0.4.0 - 2015-05-12
 ### Added
 - added .set function.
