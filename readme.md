@@ -22,7 +22,7 @@ var client = require('active-activity-search')({
 })
 ```
 
-###### Search
+###### Callback
 
 ```js
 client
@@ -38,13 +38,33 @@ client
 })
 ```
 
+###### Promise
+
+```js
+client
+.query('basketball')
+.category('event')
+.city('Denver')
+.state('CO')
+.zip('80202')
+.radius(50)
+.search()
+.then(function (data) {
+  console.log(data)
+})
+.catch(function (error) {
+  console.error(error.message)
+})
+```
+
 ## Features
 
 * Supports all [documented API query parameters](http://developer.active.com/docs/read/v2_Activity_API_Search).
 * Supports 12-factor configuration.
+* Accepts a traditional node-style callback otherwise, returns a promise.
+* Exposes a `User-Agent` request header including the name and version of the client.
 * Exposes a fluent interface.
 * Emits debug logs via `DEBUG=active-activity-search*`.
-* Exposes a `User-Agent` request header including the name and version of the client.
 
 ## 12-factor configuration example
 

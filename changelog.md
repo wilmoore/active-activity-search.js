@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file (keepachangelog.com).
 
+## 0.6.0 - 2015-05-14
+### Changed
+- support optionally returning a promise if no callback is provided.
+
 ## 0.5.0 - 2015-05-13
 ### Changed
 - swapped out `@wilmoore/accessor` for local `./lib/accessor`.
