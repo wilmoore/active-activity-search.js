@@ -1,6 +1,16 @@
 # Change Log
 All notable changes to this project will be documented in this file (keepachangelog.com).
 
+## 0.7.0 - 2015-05-16
+### Added
+- add promise-back.
+
+### Removed
+- remove bluebird.
+
+### Changed
+- change `search` to use thunk + promise-back.
+
 ## 0.6.0 - 2015-05-14
 ### Changed
 - support optionally returning a promise if no callback is provided.
