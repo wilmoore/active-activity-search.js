@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file (keepachangelog.com).
 
+## 0.8.0 - 2015-05-21
+### Changed
+- use `create-object` & prototype object instead of `new Client`.
+
 ## 0.7.1 - 2015-05-16
 ### Removed
 - drop local promisify module.
