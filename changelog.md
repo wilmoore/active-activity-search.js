@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file (keepachangelog.com).
 
+## 0.9.0 - 2016-01-08
+### Changed
+- switch from local copy of `./accessor` to `npm install function-accessor --save`.
+
 ## 0.8.1 - 2015-05-30
 ### Changed
 - add `dependency-check`.
